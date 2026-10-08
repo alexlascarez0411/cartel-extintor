@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Letrero Extintor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cartel-contenedor">
+        <!-- Encabezado -->
+        <div class="encabezado-rojo">EXTINTOR</div>
+        <div class="subtitulo">USELO UNICAMENTE EN FUEGO CLASE</div>
+
+        <!-- Símbolos -->
+        <div class="simbolos">
+            <!-- Triángulo A -->
+            <div class="triangulo-a">
+                <div class="triangulo-borde"></div>
+                <div class="letra-a">A</div>
+            </div>
+            
+            <!-- Cuadro Azul con el fuego -->
+            <div class="cuadro-azul" id="simbolo-fuego">
+                <span>🗑️</span> <!-- Representación del basurero -->
+                <span class="fuego-icono">🔥</span> <!-- Símbolo del fuego -->
+            </div>
+        </div>
+
+        <!-- Texto de materiales -->
+        <div class="materiales">
+            <strong>SOLIDOS COMBUSTIBLES</strong><br>
+            madera, papel,<br>
+            tela, basura<br>
+            cartones
+        </div>
+
+        <!-- Instrucciones -->
+        <div class="metodo-titulo">METODO PARA UTILIZARLO</div>
+        <ol class="lista-instrucciones">
+            <li>Sosténgalo en posición vertical.</li>
+            <li>Retire el seguro.</li>
+            <li>Oprima la palanca.</li>
+            <li>Dirija la descarga contra la base de la llama.</li>
+        </ol>
+
+        <!-- Franjas inferiores -->
+        <div class="franjas"></div>
+    </div>
+
+    <!-- Etiqueta de audio oculta -->
+    <audio id="sonido-fuego" src="https://www.w3schools.com/html/horse.mp3"></audio>
+
+    <!-- Enlace al JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
